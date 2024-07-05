@@ -1,0 +1,195 @@
+*{
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+}
+nav{
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+     display: flex;
+}
+
+nav ul li a{
+    margin: 10px;
+    color: rgb(211, 43, 226);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a:hover{
+    text-shadow: 2px 3px 4px black;
+    color: red;
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: white;
+}
+h1:hover{
+    text-shadow: 2px 2px 3px red;
+    text-decoration:underline;
+    cursor: pointer;
+}
+span{
+    color: blueviolet;
+    font-weight: bolder;
+}
+#Home{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+#Home::before{
+    content: "";
+    background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_software_developer.jpg);
+    height: 100%;
+    background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.main{
+    display: flex;
+    position: absolute;
+    border: 2px inset white;
+    padding: 30px;
+    top: 85%;
+    left: 70%;
+    box-shadow: 2px 4px 5px white;
+}
+.main:hover{
+    scale: 1.03;
+}
+.pic{
+    display: flex;
+
+}
+.pic img{
+    width: 400px;
+}
+.pic h4{
+    color: rgb(95, 12, 103);
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+h3{
+    text-align: center;
+    color: rgb(211, 43, 226);
+    margin-top: 10px;
+    background-color: rgb(184, 178, 167);
+}
+.gallery{
+    border: rgb(41, 5, 74);
+    margin-top: 5px;
+    box-shadow: 2px 3px 4px rgb(81, 77, 77);
+
+
+}
+.gallery img{
+    width: 450px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+} 
+.gallery img:hover{
+    scale: 1.05;
+    box-shadow: 2px 4px 3px rgb(41, 5, 74);
+}
+.row{
+   display: flex;
+   margin-top: 5px;
+   background-color: beige;
+}
+.box{
+    width: 400px;
+    margin: 5px;
+    /* background-color: antiquewhite; */
+    height: 450px;
+    border: 2px inset black;
+    background: linear-gradient(to top,rgb(108, 102, 81)50% , rgb(247, 224, 184)50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+}
+.box:hover{
+    background-position: right bottom;
+}
+.box img{
+    width: 100%;
+    border-radius: 30%;
+}
+.box h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(44, 7, 79);
+
+}
+.box p{
+    text-align: justify;
+    font-style: italic;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 208, 246);
+    padding: 5px;
+    cursor: pointer;
+}
+.cv{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10%;
+    margin-left: 60%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(77, 77, 77); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(59, 36, 36); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
